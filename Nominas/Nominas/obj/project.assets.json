@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\penaa\\Source\\Repos\\Nomina\\Nominas\\Nominas\\Nominas.csproj",
+      "projectUniqueName": "C:\\Users\\penaa\\Source\\Repos\\Nom\\Nominas\\Nominas\\Nominas.csproj",
       "projectName": "Nominas",
-      "projectPath": "C:\\Users\\penaa\\Source\\Repos\\Nomina\\Nominas\\Nominas\\Nominas.csproj",
+      "projectPath": "C:\\Users\\penaa\\Source\\Repos\\Nom\\Nominas\\Nominas\\Nominas.csproj",
       "packagesPath": "C:\\Users\\penaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\penaa\\Source\\Repos\\Nomina\\Nominas\\Nominas\\obj\\",
+      "outputPath": "C:\\Users\\penaa\\Source\\Repos\\Nom\\Nominas\\Nominas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\penaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
