@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\penaa\\Source\\Repos\\PayrollPro\\Nominas\\Nominas\\Nominas.csproj": {}
+    "C:\\Users\\penaa\\source\\repos\\PayrollPr\\Nominas\\Nominas\\Nominas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\penaa\\Source\\Repos\\PayrollPro\\Nominas\\Nominas\\Nominas.csproj": {
+    "C:\\Users\\penaa\\source\\repos\\PayrollPr\\Nominas\\Nominas\\Nominas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\penaa\\Source\\Repos\\PayrollPro\\Nominas\\Nominas\\Nominas.csproj",
+        "projectUniqueName": "C:\\Users\\penaa\\source\\repos\\PayrollPr\\Nominas\\Nominas\\Nominas.csproj",
         "projectName": "Nominas",
-        "projectPath": "C:\\Users\\penaa\\Source\\Repos\\PayrollPro\\Nominas\\Nominas\\Nominas.csproj",
+        "projectPath": "C:\\Users\\penaa\\source\\repos\\PayrollPr\\Nominas\\Nominas\\Nominas.csproj",
         "packagesPath": "C:\\Users\\penaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\penaa\\Source\\Repos\\PayrollPro\\Nominas\\Nominas\\obj\\",
+        "outputPath": "C:\\Users\\penaa\\source\\repos\\PayrollPr\\Nominas\\Nominas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\penaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
