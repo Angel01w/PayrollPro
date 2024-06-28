@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Nominas.DB;
+
 namespace Nominas
 {
     public class Program
@@ -5,7 +8,8 @@ namespace Nominas
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            builder.Services.AddDbContext<AplicationDBContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("PayrollPro")));
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
@@ -28,7 +32,7 @@ namespace Nominas
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Login}/{action=Home}/{id?}");
 
             app.Run();
         }

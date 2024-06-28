@@ -18,7 +18,16 @@ namespace Nominas.Controllers
             return View();
         }
 
+        public IActionResult HomeEmpleado()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
+        {
+            return View();
+        }
+        public IActionResult HomeAdmin()
         {
             return View();
         }
