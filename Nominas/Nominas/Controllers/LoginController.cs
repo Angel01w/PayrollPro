@@ -7,6 +7,7 @@ using Nominas.DB;
 using Nominas.Models;
 using System.Security.Claims;
 
+
 namespace Nominas.Controllers
 {
     public class LoginController : Controller

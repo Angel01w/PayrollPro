@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Nominas.DB;
+using QuestPDF;
+using QuestPDF.Infrastructure;
 
 namespace Nominas
 {
@@ -8,12 +10,17 @@ namespace Nominas
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
             builder.Services.AddDbContext<AplicationDBContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("PayrollPro")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("PayrollPro")));
+
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
+
+            // Configure the QuestPDF license
+            QuestPDF.Settings.License = LicenseType.Community;
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

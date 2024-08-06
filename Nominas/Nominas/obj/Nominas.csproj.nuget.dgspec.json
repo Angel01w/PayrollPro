@@ -11,7 +11,7 @@
         "projectName": "Nominas",
         "projectPath": "C:\\Users\\Dell\\source\\repos\\PayrollPro\\Nominas\\Nominas\\Nominas.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Source\\Repos\\PayrollPro\\Nominas\\Nominas\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\source\\repos\\PayrollPro\\Nominas\\Nominas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,6 +67,14 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2024.7.2, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[8.0.5, )"
             }
           },
           "imports": [
